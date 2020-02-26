@@ -31,7 +31,7 @@ def click():
         cal+= 20
     if (Arr4.get() == 2):
         cal+= 20
-    messagebox.showinfo("resultados","Tu calificaion es"+ cal )
+    messagebox.showinfo("resultados","Tu calificaion es"+ str(cal) )
 
 
 
